@@ -6,8 +6,8 @@ const Content = (props) => {
         <>
             <ul>
                 {props.information.map((part, index) => (
-                    <p key={part}>
-                        {`Part ${part[0]}: ${part[1]} ${part[2]} exercises`}
+                    <p key={index}>
+                        {`Part ${index+1}: ${part.name} ${part.exercises} exercises`}
                     </p>
                 ))}
             </ul>

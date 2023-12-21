@@ -6,7 +6,7 @@ const Total = (props) => {
   return (
     <>
       {props.total.map((part, index) =>{
-        count += part[2]
+        count += part.exercises
       })}
       <p>Number of exercises: {count}</p>
     </>
