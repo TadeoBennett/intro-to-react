@@ -30,3 +30,12 @@ Objects
 Classes
 More on maps when looping through arrays
 
+Part 1c: 
+Componenet Helper Functions
+Page Re-rendering
+Statefule Component
+Event Handling
+Passing state to child components
+Understanding changes in state
+Refactoring components(simplifying)
+Destructuring props
